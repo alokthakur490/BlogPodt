@@ -1,4 +1,16 @@
-.container-fluid {
+
+    /* .footer {
+        
+        
+        background: linear-gradient(to bottom right, #79C131,#161616);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+      } */
+ 
+
+      .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -10,6 +22,9 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    /* background: linear-gradient(to bottom right, #a40409, #131313); */
+    /* /* background-color: #333; */
+       
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
@@ -19,14 +34,16 @@
 	padding-bottom: 60px;
 }
 
-.footer {
-	/* position: absolute; */
+.footer { 
+	position: absolute;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
-}
+	background: linear-gradient(to bottom right, #79C131,#161616);
+   
+      
+ }
 
 .footer p {
 	margin-top: 25px;
@@ -39,3 +56,17 @@
 .post{
     padding-top: 30px;
 }
+
+p1{
+    font-size: 20px;
+    /* padding-top: 70cm; */
+    
+}
+
+p{
+    font-size: 16px;
+}
+body{
+    background: linear-gradient(to bottom right, #e3fec8,white); 
+}
+

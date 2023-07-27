@@ -1,7 +1,144 @@
 
-<%- include('partial/header'); -%>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-<h1>Home</h1>
+<head>
+  <meta charset="utf-8">
+  <title>Incognito Tales</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="/css/styles.css"> -->
+  <style>
+    
+    .footer {
+        /* background-color: #333; */
+        
+        background: linear-gradient(to bottom right, #79C131,#161616);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+      }
+ 
+
+      .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    /* background: linear-gradient(to bottom right, #a40409, #131313); */
+    /* /* background-color: #333; */
+    /* background-color: #faf0f9; */
+       
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+/* .footer { 
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c; 
+   
+      
+ } */
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+
+
+.post{
+    padding-top: 30px;
+}
+
+p1{
+    font-size: 20px;
+    /* padding-top: 70cm; */
+    
+}
+
+p{
+    font-size: 16px;
+}
+
+
+  </style>
+  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand" style="color: #79C131; font-size: 20px;">Incognito Tales</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- 6 -->
+          <li id="home"><a href="/" style="color: #FA5B35; font-size: 15px;">HOME</a></li>
+          <li id="about"><a href="/about" style="color: #FA5B35; font-size: 15px;">ABOUT US</a></li>
+          <li id="contact"><a href="/contact" style="color: #5C2FDE; font-size: 15px;" >CONTACT US</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <body>
+    <div class="container">
+
+<h2>Welcome to Incognito Tales! </h2>
+<p1>
+  <h3><br> A Place of Freedom: Share, Roast, and Express Anonymously<br></h3>  
+    <br>
+
+    
+    Are you tired of bottling up your thoughts, emotions, and roasts? Seeking an outlet to vent without revealing your identity? Look no further! IncognitoTales is your confidential confessional, a digital haven where you can unleash your innermost feelings, roast anyone (with a sprinkle of humor), and share your unfiltered thoughts without any fear of judgment.<br>
+  <br>
+    
+    Why Choose Incognito Tales?<br>
+    <br>
+    
+    1. Total Anonymity: We believe that everyone deserves a safe and non-judgmental platform to express themselves freely. At IncognitoTales, we ensure complete anonymity for all users, giving you the confidence to share your secrets without fear.<br>
+    
+    2. A Supportive Community: You are not alone in your journey. Our platform fosters a supportive and caring community of individuals who have experienced similar emotions and situations. Connect with like-minded people who genuinely empathize and offer understanding.<br>
+    
+    3. Catharsis and Healing: Unburdening yourself from secrets can be incredibly therapeutic. By sharing your thoughts and experiences on IncognitoTales, you take the first step towards healing and personal growth.<br>
+    
+    4. Empower Others: Your story has the power to inspire, comfort, and empower others facing similar challenges. By sharing, you contribute to a community that thrives on mutual support and encouragement.<br>
+    <br>
+    How It Works:<br>
+    <br>
+    
+    1. Share Anonymously: No need to create account and start sharing your secrets without revealing your identity. Our platform ensures that your privacy is protected at all times.<br>
+    
+    2. Supportive Reactions: Receive supportive and caring reactions from the community in the form of reply like using @reply{post-name}. Our future update will include comment and conversation icon.<br>
+    
+
+    
+    3. Respect and Kindness: Our community upholds the values of respect, kindness, and empathy. We have zero tolerance for any form of hate speech or harmful behavior, ensuring a safe and positive environment for all.<br>
+    <br>
+    Join Us Today: <br>
+    
+    
+    Step into a world of authenticity, understanding, and empathy. Share your secrets, explore the stories of others, and find solace in knowing that you are not alone. Together, we can build a community that celebrates vulnerability and supports one another through life's challenges. <br>
+    
+    Let your secrets see the light. Start your journey towards healing and connection on IncognitoTales. Your voice matters, and your story deserves to be heard. <br>
+    
+     Share Your Secret Now! <br>
+</p1>
 <p><%=p%> </p>
 <%posts.forEach(function(post){%>
     <h1><%=post.title%></h1>
