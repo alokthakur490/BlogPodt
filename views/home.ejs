@@ -11,51 +11,26 @@
   <style>
     
     .footer {
-        /* background-color: #333; */
         
-        background: linear-gradient(to bottom right, #79C131,#161616);
+        
+        /* background: linear-gradient(to bottom right, #79C131,#161616); */
+        /* background-color: #000; */
+        background: linear-gradient(to bottom right, #686867,#161616); 
         color: #fff;
         padding: 20px;
         text-align: center;
         font-size: 14px;
+        padding-top: 2px;
+       
+        
       }
+
+ .footer-padding{
+  padding-top: 50px;
+ }
  
 
-      .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-.navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-    /* background: linear-gradient(to bottom right, #a40409, #131313); */
-    /* /* background-color: #333; */
-    /* background-color: #faf0f9; */
-       
-}
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
-}
 
-.footer-padding {
-	padding-bottom: 60px;
-}
-
-/* .footer { 
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #1abc9c; 
-   
-      
- } */
 
 .footer p {
 	margin-top: 25px;
@@ -70,36 +45,178 @@
 }
 
 p1{
-    font-size: 20px;
+    font-size: 25px;
     /* padding-top: 70cm; */
     
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
 }
+
+.content{
+  padding: 40px;
+}
+
+
+
+.header{
+    margin-top: 60px;
+    width: 100%;
+    height: calc(80vh - 60px);
+    /* background: url(../image/unseen-studio-s9CC2SKySJM-unsplash.jpg); */
+    /* background: url(../image/clark-tibbs-oqStl2L5oxI-unsplash.jpg); */
+    background: url(../image/steven-houston-d2lO9btumD4-unsplash.jpg);
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 0.1%;
+}
+
+.content{
+    text-align: center;
+}
+
+.heading{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 80px;
+    line-height: 60px;
+    margin-bottom: 80px;
+    
+}
+
+.heading .small{
+    display: block;
+    font-size: 40px;
+}
+
+.heading .no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+.no-fill{
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 2px #050000;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #FA5B35;
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.btn-bottom{
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #090909;
+    color: #fbfafa;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    font-family: 'poppins', sans-serif;
+    
+    background: linear-gradient(to bottom right, #e5e4e4,white); 
+}
+
+
+::selection{
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5 5vw; */
+    padding-bottom: 10px;
+    background: #fefefe;
+    z-index: 9;
+    background: linear-gradient(to bottom right, #fafaf9,#161616); 
+}
+
+.links-container{
+    display: flex;
+    list-style: none;
+}
+
+.link{
+    padding: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.container{
+  padding-top: 30px;
+}
+
 
 
   </style>
   
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <p class="navbar-brand" style="color: #79C131; font-size: 20px;">Incognito Tales</p>
-      </div>
-        <ul class="nav navbar-nav navbar-right">
-          <!-- 6 -->
-          <li id="home"><a href="/" style="color: #FA5B35; font-size: 15px;">HOME</a></li>
-          <li id="about"><a href="/about" style="color: #FA5B35; font-size: 15px;">ABOUT US</a></li>
-          <li id="contact"><a href="/contact" style="color: #5C2FDE; font-size: 15px;" >CONTACT US</a></li>
-        </ul>
-    </div>
-  </nav>
+  
 
   <body>
+
+    <nav class="navbar navbar-default">
+     
+      <div class="container">
+        <div class="navbar-header">
+          <p class="navbar-brand" style="color: #0a0a0a; font-size: 30px;">Incognito Tales</p>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li id="home"><a href="/" style="color: #FA5B35; font-size: 15px;">HOME</a></li>
+            <li id="about"><a href="/about" style="color: #FA5B35; font-size: 15px;">ABOUT US</a></li>
+            <li id="contact"><a href="/contact" style="color: #FA5B35; font-size: 15px;" >CONTACT US</a></li>
+          </ul>
+      </div>
+    </nav> 
+
+    
+    <header class="header">
+      
+      <div class="content">
+          <h1 class="heading">
+              <span class="small">A Place of Freedom</span>
+              Incognito 
+              <span class="no-fill">Tales!</span>
+          </h1>
+          <a href="/compose" class="btn ">Create Post</a>
+          
+      </div>
+  </header>
+
+    
     <div class="container">
 
-<h2>Welcome to Incognito Tales! </h2>
+<!-- <h2>Welcome to Incognito Tales! </h2>
 <p1>
   <h3><br> A Place of Freedom: Share, Roast, and Express Anonymously<br></h3>  
     <br>
@@ -108,17 +225,8 @@ p{
     Are you tired of bottling up your thoughts, emotions, and roasts? Seeking an outlet to vent without revealing your identity? Look no further! IncognitoTales is your confidential confessional, a digital haven where you can unleash your innermost feelings, roast anyone (with a sprinkle of humor), and share your unfiltered thoughts without any fear of judgment.<br>
   <br>
     
-    Why Choose Incognito Tales?<br>
-    <br>
-    
-    1. Total Anonymity: We believe that everyone deserves a safe and non-judgmental platform to express themselves freely. At IncognitoTales, we ensure complete anonymity for all users, giving you the confidence to share your secrets without fear.<br>
-    
-    2. A Supportive Community: You are not alone in your journey. Our platform fosters a supportive and caring community of individuals who have experienced similar emotions and situations. Connect with like-minded people who genuinely empathize and offer understanding.<br>
-    
-    3. Catharsis and Healing: Unburdening yourself from secrets can be incredibly therapeutic. By sharing your thoughts and experiences on IncognitoTales, you take the first step towards healing and personal growth.<br>
-    
-    4. Empower Others: Your story has the power to inspire, comfort, and empower others facing similar challenges. By sharing, you contribute to a community that thrives on mutual support and encouragement.<br>
-    <br>
+   
+  
     How It Works:<br>
     <br>
     
@@ -129,7 +237,8 @@ p{
 
     
     3. Respect and Kindness: Our community upholds the values of respect, kindness, and empathy. We have zero tolerance for any form of hate speech or harmful behavior, ensuring a safe and positive environment for all.<br>
-    <br>
+     <br> -->
+    <p1>
     Join Us Today: <br>
     
     
@@ -138,10 +247,11 @@ p{
     Let your secrets see the light. Start your journey towards healing and connection on IncognitoTales. Your voice matters, and your story deserves to be heard. <br>
     
      Share Your Secret Now! <br>
-</p1>
+</p1> 
+
 <p><%=p%> </p>
 <%posts.forEach(function(post){%>
-    <h1><%=post.title%></h1>
+    <h1> <span class="no-fill"><%=post.title%>!</span></h1>
     <p>
         <%=post.content.substring(0,100) + "....."%>
         <a href="/posts/<%=post._id%>" id="link">Read More >></a>
@@ -151,7 +261,7 @@ p{
   
 <%});%>
 
-<div class = "post"><a href="/compose" class="btn btn-primary">Create Post </a></div>
+<div class = "post"><a href="/compose" class="btn-bottom">Create Post </a></div>
 
 
 
